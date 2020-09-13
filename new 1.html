@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head><h2>1st ANNOTATION</h2>
+<script type = "text/javascript" src="2.js"></script>
+
+ <link rel="stylesheet" href="styles.css">                                                              
+</head>
+<body id="aa">
+        <textarea id="tf" rows="33" class="tf" cols="65" margin-right = "50px" ></textarea>
+       <div>
+           <label> <strong id="st" >1. ASHA link provided : </strong></label>
+         
+
+		 <input type="radio" name="asha" value="yes" id="asha_yes_button"  >yes
+         <input type="radio" name="asha" value="no" id="asha_no_button"  >no 
+	    </div>
+		
+		<div>
+		 <strong id="st1" >2. Image present in image assist : </strong>
+		  <input type="radio" name="image1" value="yes" id="image_assist_yes"  >yes
+         <input type="radio" name="image1" value="no" id="image_assist_no"  >no 
+	    </div>
+		
+		<div>
+		<strong  id="tracking_labels">3. Tracking label in Image assist : </strong>
+		 <input type="radio" name="tracking" value="yes" id="tracking_labels_yes"  >yes
+         <input type="radio" name="tracking" value="no" id="tracking_labels_no"  >no 
+		 <input type="text" id="tracking_labels_tf" placeholder="comments" >
+		</div>
+
+
+        <div class=" a">
+		<strong id="csi_attributes">4. CSI Attributes : </strong>
+		<ol>
+		    <li id="product_packaging_age">Product Packaging age: 
+			<input class="ppa" type="text" id="product_packaging_age_tf" placeholder="'Tab/Tab+Shift' to navigate">
+			</li><br>
+			
+			
+			
+		    <li id="Manufacturer_minimum_age">Manufacturer minimum age: 
+			<input class="ppa" type="text" id="Manufacturer_minimum_age_tf"></li><br>
+			
+			<li id="Amazon_minimum_age">Amazon minimum age :
+			<input class="ppa" type="text" id="Amazon_minimum _age_tf"></li><br>
+			
+			<li id="Title_age">Title age - 
+			<input class="ppa" type="text" id="Title_age_tf"></li><br>
+			
+			<li id="bp_age">Bullet points age 
+			<input class="ppa" type="text" id="bp_age_tf"></li><br>
+			
+			<li id="Product_description_Age">Product description Age - 
+			<input class="ppa" type="text" id="Product_description_Age_tf"></li><br>
+			
+			<li id="cpsia">CPSIA Warning attributes - 
+			<input type="radio" name="cpsia" value="present" id="cpsia_present"  >present
+            <input type="radio" name="cpsia" value="absent" id="cpsia_absent"  >absent</li><br>
+		
+		</ol>
+		</div>
+         
+		 
+		 <div>
+		 <strong id="test_report_age">5. Tested age is matching with CSI age : </strong>
+		 <input type="radio" name="testa" value="yes" id="test_report_age_yes"  >yes
+         <input type="radio" name="testa" value="no" id="test_report_age_no"  >no
+		 </div>
+
+         <div>
+		 <strong id="test_report_image">6. Test report image is matching with Image assist: </strong>
+		 <input type="radio" name="testi" value="yes" id="test_report_image_yes"  >yes
+         <input type="radio" name="testi" value="no" id="test_report_image_no"  >no
+		 </div>
+
+         <div>
+		 <strong id="outdated">7. Outdated: </strong>
+		 <input type="radio" name="outdated" value="yes" id="outdated_yes"  >yes
+         <input type="radio" name="outdated" value="no" id="outdated_no"  >no
+		 </div>
+ 
+         <div>
+		 <strong id="cpc">8. CPC is available: </strong>
+		 <input type="radio" name="cpc" value="yes" id="cpc_yes"  >yes
+         <input type="radio" name="cpc" value="no" id="cpc_no"  >no
+		 </div>
+ 
+        <div>  
+		  <strong id="test_result"> 9. Test Result : Pass/Fail/Missing/NC/NT/NR </strong>
+		  <ol>
+		     <li id="4.1">Sec 4.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="radio" name="4.1" value="Pass" id="4.1_pass" class="test_buttons" >Pass
+			 <input type="radio" name="4.1" value="Fail" id="4.1_fail" class="test_buttons"  >Fail
+             <input type="radio" name="4.1" value="Missing" id="4.1_missing"  class="test_buttons">Missing
+		     <input type="radio" name="4.1" value="NC" id="4.1_nc" class="test_buttons" >NC
+             <input type="radio" name="4.1" value="NT" id="4.1_nt" class="test_buttons" >NT
+		     <input type="radio" name="4.1" value="NR" id="4.1_nr" class="test_buttons" >NR</li>
+		    
+		  
+	          <li id="4.2">Sec 4.2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+			 <input type="radio" name="4.2" value="Pass" id="4.2_pass" class="test_buttons" >Pass
+			 <input type="radio" name="4.2" value="Fail" id="4.2_fail" class="test_buttons" >Fail
+             <input type="radio" name="4.2" value="Missing" id="4.2_missing" class="test_buttons" >Missing
+		     <input type="radio" name="4.2" value="NC" id="4.2_nc" class="test_buttons" >NC
+             <input type="radio" name="4.2" value="NT" id="4.2_nt" class="test_buttons" >NT
+		     <input type="radio" name="4.2" value="NR" id="4.2_nr" class="test_buttons" >NR</li>
+		  	  
+			   <li id="4.3.5.1">Sec 4.3.5.1
+			 <input type="radio" name="4.3.5.1" value="Pass" id="4.3.5.1_pass" class="test_buttons" >Pass
+			 <input type="radio" name="4.3.5.1" value="Fail" id="4.3.5.1_fail" class="test_buttons" >Fail
+             <input type="radio" name="4.3.5.1" value="Missing" id="4.3.5.1_missing" class="test_buttons" >Missing
+		     <input type="radio" name="4.3.5.1" value="NC" id="4.3.5.1_nc" class="test_buttons" >NC
+             <input type="radio" name="4.3.5.1" value="NT" id="4.3.5.1_nt" class="test_buttons" >NT
+		     <input type="radio" name="4.3.5.1" value="NR" id="4.3.5.1_nr" class="test_buttons" >NR</li>
+			 
+			 <li id="4.3.5.2">Sec 4.3.5.2
+			 <input type="radio" name="4.3.5.2" value="Pass" id="4.3.5.2_pass"  >Pass
+			 <input type="radio" name="4.3.5.2" value="Fail" id="4.3.5.2_fail"  >Fail
+             <input type="radio" name="4.3.5.2" value="Missing" id="4.3.5.2_missing"  >Missing
+		     <input type="radio" name="4.3.5.2" value="NC" id="4.3.5.2_nc"  >NC
+             <input type="radio" name="4.3.5.2" value="NT" id="4.3.5.2_nt"  >NT
+		     <input type="radio" name="4.3.5.2" value="NR" id="4.3.5.2_nr"  >NR</li>
+			 
+			 <li id="4.7">Sec 4.7  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			 <input type="radio" name="4.7" value="Pass" id="4.7_pass"  >Pass
+			 <input type="radio" name="4.7" value="Fail" id="4.7_fail"  >Fail
+             <input type="radio" name="4.7" value="Missing" id="4.7_missing"  >Missing
+		     <input type="radio" name="4.7" value="NC" id="4.7_nc"  >NC
+             <input type="radio" name="4.7" value="NT" id="4.7_nt"  >NT
+		     <input type="radio" name="4.7" value="NR" id="4.7_nr"  >NR</li>
+			 
+			 
+			 <li id="4.9">Sec 4.9  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			 <input type="radio" name="4.9" value="Pass" id="4.9_pass"  >Pass
+			 <input type="radio" name="4.9" value="Fail" id="4.9_fail"  >Fail
+             <input type="radio" name="4.9" value="Missing" id="4.9_missing"  >Missing
+		     <input type="radio" name="4.9" value="NC" id="4.9_nc"  >NC
+             <input type="radio" name="4.9" value="NT" id="4.9_nt"  >NT
+		     <input type="radio" name="4.9" value="NR" id="4.9_nr"  >NR</li>
+			 
+			 <li id="7.1">Sec  7.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+			 <input type="radio" name="7.1" value="Pass" id="7.1_pass"  >Pass
+			 <input type="radio" name="7.1" value="Fail" id="7.1_fail"  >Fail
+             <input type="radio" name="7.1" value="Missing" id="7.1_missing"  >Missing
+		     <input type="radio" name="7.1" value="NC" id="7.1_nc"  >NC
+             <input type="radio" name="7.1" value="NT" id="7.1_nt"  >NT
+		     <input type="radio" name="7.1" value="NR" id="7.1_nr"  >NR</li>
+			 
+			 <li id="phthalate">Phthalate: &nbsp;  
+			 <input type="radio" name="phthalate" value="Pass" id="phthalate_pass"  >Pass
+			 <input type="radio" name="phthalate" value="Fail" id="phthalate_fail"  >Fail
+             <input type="radio" name="phthalate" value="Missing" id="phthalate_missing"  >Missing
+		     <input type="radio" name="phthalate" value="NC" id="phthalate_nc"  >NC
+             <input type="radio" name="phthalate" value="NT" id="phthalate_nt"  >NT
+		     <input type="radio" name="phthalate" value="NR" id="phthalate_nr"  >NR</li>
+			 
+			 
+			 <li id="tt">Torque/Tension: 
+			 <input type="radio" name="tt" value="Pass" id="tt_pass"  >Pass
+			 <input type="radio" name="tt" value="Fail" id="tt_fail"  >Fail
+             <input type="radio" name="tt" value="Missing" id="tt_missing"  >Missing
+		     <input type="radio" name="tt" value="NC" id="tt_nc"  >NC
+             <input type="radio" name="tt" value="NT" id="tt_nt"  >NT
+		     <input type="radio" name="tt" value="NR" id="tt_nr"  >NR</li>
+			 
+			 
+			</ol>
+		</div>
+
+            <div>
+			<strong id="findings">10. Any other information as per Checklist / your finding :</strong><br>
+			<textarea id="findings_ta" rows="5" cols="50"></textarea>
+			</div> 
+	
+
+	 <button class="button" type ="button" onclick="copy()">Copy</button>
+	 <button class="button1" type ="button" onclick="myFunctionm()">Display</button>
+	 <input class="button2" type="reset" value="Reset" onclick="reset()">
+		 
+		 
+		 
+      
+</body>
+</html>
+
+
+ 

@@ -1,0 +1,56 @@
+body {background-color: powderblue;
+   float: left;
+ }
+h2{text-align: center;}
+textarea.tf{
+	         position: absolute;
+            left: 700px; 			
+           }
+		   
+button.button{
+	position: absolute;
+	left: 720px;
+	top: 580px;
+	border-radius: 6px;
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+	font-style: bold;
+    transform: translateY(4px);
+}
+
+button.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+}		   
+
+input.ppa{position: absolute;
+          left: 240px;
+}
+
+input.button2{
+	position: absolute;
+	left: 830px;
+    top: 585px;	
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+	border-radius: 6px;
+}
+input.button2:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+}
+
+button.button1{
+    position: absolute;
+	left: 150px;
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+	border-radius: 6px;
+}
+button.button1:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+}
